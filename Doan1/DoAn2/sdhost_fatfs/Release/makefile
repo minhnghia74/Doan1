@@ -14,9 +14,7 @@ ORDERED_OBJS += \
 "./camera_app.obj" \
 "./diskio.obj" \
 "./i2c_lcd.obj" \
-"./i2cconfig.obj" \
 "./main.obj" \
-"./mt9d111.obj" \
 "./pinmux.obj" \
 "./startup_ccs.obj" \
 "./uart_if.obj" \
@@ -167,8 +165,8 @@ sdhost_fatfs.bin: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "MFRC522.obj" "camera_app.obj" "diskio.obj" "i2c_lcd.obj" "i2cconfig.obj" "main.obj" "mt9d111.obj" "pinmux.obj" "startup_ccs.obj" "uart_if.obj" 
-	-$(RM) "MFRC522.d" "camera_app.d" "diskio.d" "i2c_lcd.d" "i2cconfig.d" "main.d" "mt9d111.d" "pinmux.d" "startup_ccs.d" "uart_if.d" 
+	-$(RM) "MFRC522.obj" "camera_app.obj" "diskio.obj" "i2c_lcd.obj" "main.obj" "pinmux.obj" "startup_ccs.obj" "uart_if.obj" 
+	-$(RM) "MFRC522.d" "camera_app.d" "diskio.d" "i2c_lcd.d" "main.d" "pinmux.d" "startup_ccs.d" "uart_if.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

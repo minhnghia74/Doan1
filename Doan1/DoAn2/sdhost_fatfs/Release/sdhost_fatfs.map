@@ -1,7 +1,7 @@
 ******************************************************************************
                   TI ARM Linker PC v18.1.2                     
 ******************************************************************************
->> Linked Tue Jun 26 23:55:46 2018
+>> Linked Sun Jul  1 20:02:57 2018
 
 OUTPUT FILE NAME:   <sdhost_fatfs.out>
 ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 2000a021

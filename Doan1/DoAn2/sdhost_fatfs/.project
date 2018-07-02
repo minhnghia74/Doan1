@@ -46,29 +46,14 @@
 			<locationURI>CC3200_SDK_ROOT/driverlib/i2c_lcd.h</locationURI>
 		</link>
 		<link>
-			<name>i2cconfig.c</name>
-			<type>1</type>
-			<location>C:/Users/DELL/workspace_v8/camera_application/i2cconfig.c</location>
-		</link>
-		<link>
-			<name>i2cconfig.h</name>
-			<type>1</type>
-			<location>C:/Users/DELL/workspace_v8/camera_application/i2cconfig.h</location>
-		</link>
-		<link>
-			<name>mt9d111.c</name>
-			<type>1</type>
-			<location>C:/Users/DELL/workspace_v8/camera_application/mt9d111.c</location>
-		</link>
-		<link>
-			<name>mt9d111.h</name>
-			<type>1</type>
-			<location>C:/Users/DELL/workspace_v8/camera_application/mt9d111.h</location>
-		</link>
-		<link>
 			<name>startup_ccs.c</name>
 			<type>1</type>
 			<locationURI>CC3200_SDK_ROOT/example/common/startup_ccs.c</locationURI>
+		</link>
+		<link>
+			<name>stdcmd.h</name>
+			<type>1</type>
+			<locationURI>CC3200_SDK_ROOT/example/sdhost_fatfs/stdcmd.h</locationURI>
 		</link>
 		<link>
 			<name>uart_if.c</name>

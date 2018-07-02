@@ -95,8 +95,7 @@ extern uVectorEntry __vector_table;
 //! \return None.
 //
 //****************************************************************************
-static void
-ListDirectory(DIR *dir)
+static void ListDirectory(DIR *dir)
 {
     FILINFO fno;
     FRESULT res;
@@ -120,7 +119,6 @@ ListDirectory(DIR *dir)
         Report("->%-15s%5d %-2s    %-5s\n\r",fno.fname,ulSize,\
                 (bIsInKB == true)?"KB":"B",(fno.fattrib&AM_DIR)?"Dir":"File");
     }
-
 }
 
 //*****************************************************************************
@@ -132,8 +130,7 @@ ListDirectory(DIR *dir)
 //! \return None
 //
 //*****************************************************************************
-static void
-BoardInit(void)
+static void BoardInit(void)
 {
 /* In case of TI-RTOS vector table is initialize by OS itself */
 #ifndef USE_TIRTOS
@@ -188,7 +185,7 @@ void main()
     //
     // Set the SD card clock as output pin
     //
-    MAP_PinDirModeSet(PIN_07,PIN_DIR_MODE_OUT);
+    MAP_PinDirModeSet(PIN_01,PIN_DIR_MODE_OUT);
 
     //
     // Enable Pull up on data
@@ -261,6 +258,7 @@ void main()
                 f_read(&fp,pBuffer,1024,&Size);
                 if(Size>0)
                 Report("Read : %d Bytes\n\n\r",Size);
+
                 for(i=0;i<Size;i++)
                 {
                     if(Size>0){

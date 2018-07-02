@@ -56,7 +56,7 @@ void
 PinMuxConfig(void)
 {
     //
-    // Enable Peripheral Clocks 
+    // Enable Peripheral Clocks
     //
     MAP_PRCMPeripheralClkEnable(PRCM_UARTA0, PRCM_RUN_MODE_CLK);
     MAP_PRCMPeripheralClkEnable(PRCM_SDHOST, PRCM_RUN_MODE_CLK);
@@ -80,8 +80,8 @@ PinMuxConfig(void)
     //
     // Configure PIN_07 for SDHOST0 SDHost_CLK
     //
-    MAP_PinTypeSDHost(PIN_07, PIN_MODE_8);
-
+   // MAP_PinTypeSDHost(PIN_07, PIN_MODE_8);
+   MAP_PinTypeSDHost(PIN_01, PIN_MODE_6);
     //
     // Configure PIN_08 for SDHOST0 SDHost_CMD
     //

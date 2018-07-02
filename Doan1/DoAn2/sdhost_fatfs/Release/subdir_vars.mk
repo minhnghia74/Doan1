@@ -13,9 +13,7 @@ C:/ti/CC3200SDK_1.3.0/cc3200-sdk/driverlib/MFRC522.c \
 ../camera_app.c \
 ../diskio.c \
 C:/ti/CC3200SDK_1.3.0/cc3200-sdk/driverlib/i2c_lcd.c \
-C:/Users/DELL/workspace_v8/camera_application/i2cconfig.c \
 ../main.c \
-C:/Users/DELL/workspace_v8/camera_application/mt9d111.c \
 ../pinmux.c \
 C:/ti/CC3200SDK_1.3.0/cc3200-sdk/example/common/startup_ccs.c \
 C:/ti/CC3200SDK_1.3.0/cc3200-sdk/example/common/uart_if.c 
@@ -25,9 +23,7 @@ C_DEPS += \
 ./camera_app.d \
 ./diskio.d \
 ./i2c_lcd.d \
-./i2cconfig.d \
 ./main.d \
-./mt9d111.d \
 ./pinmux.d \
 ./startup_ccs.d \
 ./uart_if.d 
@@ -37,9 +33,7 @@ OBJS += \
 ./camera_app.obj \
 ./diskio.obj \
 ./i2c_lcd.obj \
-./i2cconfig.obj \
 ./main.obj \
-./mt9d111.obj \
 ./pinmux.obj \
 ./startup_ccs.obj \
 ./uart_if.obj 
@@ -49,9 +43,7 @@ OBJS__QUOTED += \
 "camera_app.obj" \
 "diskio.obj" \
 "i2c_lcd.obj" \
-"i2cconfig.obj" \
 "main.obj" \
-"mt9d111.obj" \
 "pinmux.obj" \
 "startup_ccs.obj" \
 "uart_if.obj" 
@@ -61,9 +53,7 @@ C_DEPS__QUOTED += \
 "camera_app.d" \
 "diskio.d" \
 "i2c_lcd.d" \
-"i2cconfig.d" \
 "main.d" \
-"mt9d111.d" \
 "pinmux.d" \
 "startup_ccs.d" \
 "uart_if.d" 
@@ -73,9 +63,7 @@ C_SRCS__QUOTED += \
 "../camera_app.c" \
 "../diskio.c" \
 "C:/ti/CC3200SDK_1.3.0/cc3200-sdk/driverlib/i2c_lcd.c" \
-"C:/Users/DELL/workspace_v8/camera_application/i2cconfig.c" \
 "../main.c" \
-"C:/Users/DELL/workspace_v8/camera_application/mt9d111.c" \
 "../pinmux.c" \
 "C:/ti/CC3200SDK_1.3.0/cc3200-sdk/example/common/startup_ccs.c" \
 "C:/ti/CC3200SDK_1.3.0/cc3200-sdk/example/common/uart_if.c" 
